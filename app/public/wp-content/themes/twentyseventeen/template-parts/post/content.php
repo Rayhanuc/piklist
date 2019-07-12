@@ -59,6 +59,18 @@
 			)
 		);
 
+		?>
+
+		<hr>
+		<?php
+		echo __("Color Field: ",'twentyseventeen').get_post_meta(get_the_ID(),'colorfield1',true)."<br/>";
+		echo __("Text Field: ",'twentyseventeen').get_post_meta(get_the_ID(),'textfield1',true)."<br/>";
+		echo __("My Favorite Foods Are: ",'twentyseventeen').join(", ",get_post_meta(get_the_ID(),'favfoods'))."<br/>";
+		?>
+		<hr>
+
+		<?php
+
 		wp_link_pages(
 			array(
 				'before'      => '<div class="page-links">' . __( 'Pages:', 'twentyseventeen' ),
