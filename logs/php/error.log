@@ -22,3 +22,9 @@ Stack trace:
 #7 {main}
   thrown in /app/public/wp-content/themes/twentyseventeen/template-parts/post/content.php on line 68
 [12-Jul-2019 19:34:06 UTC] PHP Warning:  join() expects at most 2 parameters, 3 given in /app/public/wp-content/themes/twentyseventeen/template-parts/post/content.php on line 68
+[14-Jul-2019 14:04:23 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-includes/update.php on line 384
+[14-Jul-2019 14:07:41 UTC] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY), expecting ',' or ')' in /app/public/wp-content/themes/twentyseventeen/piklist/parts/meta-boxes/dependency.php on line 8
+[14-Jul-2019 14:40:34 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /app/public/wp-content/themes/twentyseventeen/piklist/parts/meta-boxes/dependency.php on line 31
+[14-Jul-2019 14:41:56 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /app/public/wp-content/themes/twentyseventeen/piklist/parts/meta-boxes/dependency.php on line 31
+[14-Jul-2019 16:33:58 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /app/public/wp-content/themes/twentyseventeen/piklist/parts/meta-boxes/dependency.php on line 30
+[14-Jul-2019 16:50:23 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-includes/update.php on line 384

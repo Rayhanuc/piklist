@@ -60,3 +60,142 @@ Version: '5.7.23'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Comm
 2019-07-12T16:48:37.480642Z 6 [Warning] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
 2019-07-12T16:48:37.481454Z 6 [Warning] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
 2019-07-12T16:48:37.482008Z 6 [Warning] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2019-07-12T19:59:26.624173Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2019-07-12T19:59:26.646077Z 0 [Note] Shutting down slave threads
+2019-07-12T19:59:26.647486Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2019-07-12T19:59:26.648069Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2019-07-12T19:59:26.648951Z 0 [Note] Binlog end
+2019-07-12T19:59:26.690174Z 0 [Note] Shutting down plugin 'ngram'
+2019-07-12T19:59:26.690602Z 0 [Note] Shutting down plugin 'partition'
+2019-07-12T19:59:26.691469Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2019-07-12T19:59:26.695994Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2019-07-12T19:59:26.696308Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2019-07-12T19:59:26.696726Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2019-07-12T19:59:26.697050Z 0 [Note] Shutting down plugin 'MyISAM'
+2019-07-12T19:59:26.697298Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2019-07-12T19:59:26.697534Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2019-07-12T19:59:26.697862Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2019-07-12T19:59:26.698107Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2019-07-12T19:59:26.698295Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2019-07-12T19:59:26.701840Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2019-07-12T19:59:26.703453Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2019-07-12T19:59:26.707906Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2019-07-12T19:59:26.708586Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2019-07-12T19:59:26.708908Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2019-07-12T19:59:26.709123Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2019-07-12T19:59:26.736300Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2019-07-12T19:59:26.736737Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2019-07-12T19:59:26.736985Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2019-07-12T19:59:26.737207Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2019-07-12T19:59:26.737406Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2019-07-12T19:59:26.737589Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2019-07-12T19:59:26.737910Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2019-07-12T19:59:26.738122Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2019-07-12T19:59:26.738539Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2019-07-12T19:59:26.738802Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2019-07-12T19:59:26.739018Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2019-07-12T19:59:26.739218Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2019-07-12T19:59:26.739429Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2019-07-12T19:59:26.739658Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2019-07-12T19:59:26.740240Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2019-07-12T19:59:26.740565Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2019-07-12T19:59:26.740955Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2019-07-12T19:59:26.741256Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2019-07-12T19:59:26.741522Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2019-07-12T19:59:26.741877Z 0 [Note] Shutting down plugin 'InnoDB'
+2019-07-12T19:59:26.742307Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2019-07-12T19:59:26.743073Z 0 [Note] InnoDB: Starting shutdown...
+2019-07-12T19:59:26.844279Z 0 [Note] InnoDB: Dumping buffer pool(s) to /var/lib/mysql/ib_buffer_pool
+2019-07-12T19:59:26.896162Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 190712 19:59:26
+2019-07-12T19:59:28.563963Z 0 [Note] InnoDB: Shutdown completed; log sequence number 4323422
+2019-07-12T19:59:28.565139Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-07-12T19:59:28.566431Z 0 [Note] Shutting down plugin 'MEMORY'
+2019-07-12T19:59:28.568041Z 0 [Note] Shutting down plugin 'CSV'
+2019-07-12T19:59:28.569815Z 0 [Note] Shutting down plugin 'sha256_password'
+2019-07-12T19:59:28.623740Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2019-07-12T19:59:28.625205Z 0 [Note] Shutting down plugin 'binlog'
+2019-07-12T19:59:28.626544Z 0 [Note] /usr/sbin/mysqld: Shutdown complete
+
+2019-07-14T13:59:38.195317Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2019-07-14T13:59:38.299893Z 0 [Note] /usr/sbin/mysqld (mysqld 5.7.23) starting as process 101 ...
+2019-07-14T13:59:38.833711Z 0 [Note] InnoDB: PUNCH HOLE support available
+2019-07-14T13:59:38.835583Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2019-07-14T13:59:38.835937Z 0 [Note] InnoDB: Uses event mutexes
+2019-07-14T13:59:38.837779Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2019-07-14T13:59:38.840226Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2019-07-14T13:59:38.841158Z 0 [Note] InnoDB: Using Linux native AIO
+2019-07-14T13:59:38.860515Z 0 [Note] InnoDB: Number of pools: 1
+2019-07-14T13:59:38.879110Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2019-07-14T13:59:38.938857Z 0 [Note] InnoDB: Initializing buffer pool, total size = 32M, instances = 1, chunk size = 32M
+2019-07-14T13:59:39.048358Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-07-14T13:59:39.065688Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2019-07-14T13:59:39.311405Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-07-14T13:59:40.076860Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-07-14T13:59:40.077424Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-07-14T13:59:40.864382Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2019-07-14T13:59:40.883944Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2019-07-14T13:59:40.887905Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2019-07-14T13:59:40.942621Z 0 [Note] InnoDB: Waiting for purge to start
+2019-07-14T13:59:40.993873Z 0 [Note] InnoDB: 5.7.23 started; log sequence number 4323422
+2019-07-14T13:59:41.094663Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2019-07-14T13:59:41.114975Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2019-07-14T13:59:41.421291Z 0 [Note] InnoDB: Buffer pool(s) load completed at 190714 13:59:41
+2019-07-14T13:59:41.464296Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2019-07-14T13:59:41.465995Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2019-07-14T13:59:41.480199Z 0 [Note] IPv6 is available.
+2019-07-14T13:59:41.481225Z 0 [Note]   - '::' resolves to '::';
+2019-07-14T13:59:41.482225Z 0 [Note] Server socket created on IP: '::'.
+2019-07-14T13:59:41.515741Z 0 [Warning] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2019-07-14T13:59:41.710053Z 0 [Warning] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+2019-07-14T13:59:41.710712Z 0 [Warning] 'user' entry 'mysql.session@localhost' ignored in --skip-name-resolve mode.
+2019-07-14T13:59:41.711071Z 0 [Warning] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2019-07-14T13:59:41.725279Z 0 [Warning] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+2019-07-14T13:59:41.726265Z 0 [Warning] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2019-07-14T13:59:41.727847Z 0 [Warning] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+2019-07-14T13:59:42.150371Z 0 [Warning] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+2019-07-14T13:59:42.150988Z 0 [Warning] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2019-07-14T13:59:42.739738Z 0 [Note] Event Scheduler: Loaded 0 events
+2019-07-14T13:59:42.741113Z 0 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.7.23'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server (GPL)
+2019-07-14T16:33:15.112690Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 6375687ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-07-14T16:58:49.809627Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 12109ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-07-14T16:59:40.473756Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 21977ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-07-14T17:02:35.904750Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 9487ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-07-14T17:03:05.713597Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 12304ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-07-14T17:04:27.874542Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 7150ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-07-14T17:06:54.633051Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4200ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-07-14T17:08:56.223617Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4065ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-07-14T17:09:24.193385Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4779ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-07-14T17:09:36.721011Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4078ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-07-14T17:10:24.654185Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 5445ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-07-14T17:10:51.271577Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 8524ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-07-14T17:11:07.874813Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 9389ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-07-14T17:11:31.434556Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 8925ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-07-14T17:11:40.005524Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 5374ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-07-14T17:12:11.980092Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 21837ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-07-14T17:12:45.343059Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 7083ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-07-14T17:12:53.884752Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4102ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-07-14T17:13:31.186304Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 16532ms. The settings might not be optimal. (flushed=5 and evicted=0, during the time.)
+2019-07-14T17:14:05.734152Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 13969ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-07-14T17:14:27.463742Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 11029ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-07-14T17:14:45.482901Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 8013ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-07-14T17:15:00.013382Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 5036ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-07-14T17:15:08.867764Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 7812ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-07-14T17:15:33.495822Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 6884ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-07-14T17:16:02.148267Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 7001ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-07-14T17:16:49.472011Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4690ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-07-14T17:16:54.796895Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4001ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-07-14T17:18:59.240224Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4277ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-07-14T17:19:29.360678Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4398ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-07-14T17:19:47.432622Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 6923ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-07-14T17:20:04.408195Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 8621ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-07-14T17:20:31.926798Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 6211ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-07-14T17:20:45.947433Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 7167ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-07-14T17:21:03.859805Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 9837ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-07-14T17:21:43.844646Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4351ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-07-14T17:21:49.613212Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4558ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-07-14T17:21:59.042755Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4443ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-07-14T17:22:44.892117Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 6271ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-07-14T17:22:51.479453Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4340ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-07-14T17:24:03.119359Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4032ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            

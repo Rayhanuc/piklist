@@ -3,14 +3,22 @@ Creating API v1 with WebPath:
 Creating API v2 with WebPath: 
 [APIv1] KEEPALIVE /api/v1/events
 [APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
 Got message in APIv2 websocket channel
 [APIv2] BROADCAST /api/v2/websocket
 Got message in APIv1 event stream
 Sending content: {
-  "ID": "kG5W7CM596uas90rXAZHln5Zz0max35GoZ_v1084HK0=@mailhog.example",
+  "ID": "ScPIq9zsRQGAt4Q-xfDKvviyb68Zm4ypmqJ4y3sqXDE=@mailhog.example",
   "From": {
     "Relays": null,
-    "Mailbox": "nobody",
+    "Mailbox": "www-data",
     "Domain": "cb68066243ed",
     "Params": ""
   },
@@ -28,7 +36,7 @@ Sending content: {
         "text/plain; charset=UTF-8"
       ],
       "Date": [
-        "Fri, 12 Jul 2019 16:48:57 +0000"
+        "Sun, 14 Jul 2019 14:07:42 +0000"
       ],
       "From": [
         "WordPress \u003cwordpress@piklist.local\u003e"
@@ -37,16 +45,16 @@ Sending content: {
         "1.0"
       ],
       "Message-ID": [
-        "\u003ca3db12444a14054f51bd65de2fc83dad@piklist.local\u003e"
+        "\u003c065effcbaebdf13088e34f51a3949276@piklist.local\u003e"
       ],
       "Received": [
-        "from localhost by mailhog.example (MailHog)\r\n          id kG5W7CM596uas90rXAZHln5Zz0max35GoZ_v1084HK0=@mailhog.example; Fri, 12 Jul 2019 16:48:58 +0000"
+        "from localhost by mailhog.example (MailHog)\r\n          id ScPIq9zsRQGAt4Q-xfDKvviyb68Zm4ypmqJ4y3sqXDE=@mailhog.example; Sun, 14 Jul 2019 14:07:42 +0000"
       ],
       "Return-Path": [
-        "\u003cnobody@cb68066243ed\u003e"
+        "\u003cwww-data@cb68066243ed\u003e"
       ],
       "Subject": [
-        "New WordPress Site"
+        "[piklist] Your Site is Experiencing a Technical Issue"
       ],
       "To": [
         "dev-email@flywheel.local"
@@ -55,94 +63,26 @@ Sending content: {
         "PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)"
       ],
       "X-PHP-Originating-Script": [
-        "0:class-phpmailer.php"
+        "1000:class-phpmailer.php"
       ]
     },
-    "Body": "Your new WordPress site has been successfully set up at:\r\n\r\nhttp://piklist.local\r\n\r\nYou can log in to the administrator account with the following information:\r\n\r\nUsername: piklisttest\r\nPassword: The password you chose during installation.\r\nLog in here: http://piklist.local/wp-login.php\r\n\r\nWe hope you enjoy your new site. Thanks!\r\n\r\n--The WordPress Team\r\nhttps://wordpress.org/\r\n",
-    "Size": 764,
+    "Body": "Howdy!\r\n\r\nSince WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.\r\n\r\nIn this case, WordPress caught an error with your theme, Twenty Seventeen.\r\n\r\nFirst, visit your website (http://piklist.local/) and check for any visible issues. Next, visit the page where the error was caught (http://piklist.local/wp-admin/post.php?post=6\u0026action=edit) and check for any visible issues.\r\n\r\nPlease contact your host for assistance with investigating this issue further.\r\n\r\nIf your site appears broken and you can't access your dashboard normally, WordPress now has a special \"recovery mode\". This lets you safely login to your dashboard and investigate further.\r\n\r\nhttp://piklist.local/wp-login.php?action=enter_recovery_mode\u0026rm_token=LhjAWtUuCbPTnvM4vlm6Ng\u0026rm_key=S6MsKi7xmb2BxSeqwimtFh\r\n\r\nTo keep your site safe, this link will expire in 1 day. Don't worry about that, though: a new link will be emailed to you if the error occurs again after it expires.\r\n\r\n\r\n\r\nError Details\r\n=============\r\nAn error of type E_PARSE was caused in line 8 of the file /app/public/wp-content/themes/twentyseventeen/piklist/parts/meta-boxes/dependency.php. Error message: syntax error, unexpected 'array' (T_ARRAY), expecting ',' or ')'\r\n",
+    "Size": 1733,
     "MIME": null
   },
-  "Created": "2019-07-12T16:48:58.008568379Z",
+  "Created": "2019-07-14T14:07:42.458913542Z",
   "MIME": null,
   "Raw": {
-    "From": "nobody@cb68066243ed",
+    "From": "www-data@cb68066243ed",
     "To": [
       "mailhog@flywheel.local"
     ],
-    "Data": "To: dev-email@flywheel.local\r\nSubject: New WordPress Site\r\nX-PHP-Originating-Script: 0:class-phpmailer.php\r\nDate: Fri, 12 Jul 2019 16:48:57 +0000\r\nFrom: WordPress \u003cwordpress@piklist.local\u003e\r\nMessage-ID: \u003ca3db12444a14054f51bd65de2fc83dad@piklist.local\u003e\r\nX-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)\r\nMIME-Version: 1.0\r\nContent-Type: text/plain; charset=UTF-8\r\n\r\nYour new WordPress site has been successfully set up at:\r\n\r\nhttp://piklist.local\r\n\r\nYou can log in to the administrator account with the following information:\r\n\r\nUsername: piklisttest\r\nPassword: The password you chose during installation.\r\nLog in here: http://piklist.local/wp-login.php\r\n\r\nWe hope you enjoy your new site. Thanks!\r\n\r\n--The WordPress Team\r\nhttps://wordpress.org/\r\n",
+    "Data": "To: dev-email@flywheel.local\r\nSubject: [piklist] Your Site is Experiencing a Technical Issue\r\nX-PHP-Originating-Script: 1000:class-phpmailer.php\r\nDate: Sun, 14 Jul 2019 14:07:42 +0000\r\nFrom: WordPress \u003cwordpress@piklist.local\u003e\r\nMessage-ID: \u003c065effcbaebdf13088e34f51a3949276@piklist.local\u003e\r\nX-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)\r\nMIME-Version: 1.0\r\nContent-Type: text/plain; charset=UTF-8\r\n\r\nHowdy!\r\n\r\nSince WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.\r\n\r\nIn this case, WordPress caught an error with your theme, Twenty Seventeen.\r\n\r\nFirst, visit your website (http://piklist.local/) and check for any visible issues. Next, visit the page where the error was caught (http://piklist.local/wp-admin/post.php?post=6\u0026action=edit) and check for any visible issues.\r\n\r\nPlease contact your host for assistance with investigating this issue further.\r\n\r\nIf your site appears broken and you can't access your dashboard normally, WordPress now has a special \"recovery mode\". This lets you safely login to your dashboard and investigate further.\r\n\r\nhttp://piklist.local/wp-login.php?action=enter_recovery_mode\u0026rm_token=LhjAWtUuCbPTnvM4vlm6Ng\u0026rm_key=S6MsKi7xmb2BxSeqwimtFh\r\n\r\nTo keep your site safe, this link will expire in 1 day. Don't worry about that, though: a new link will be emailed to you if the error occurs again after it expires.\r\n\r\n\r\n\r\nError Details\r\n=============\r\nAn error of type E_PARSE was caused in line 8 of the file /app/public/wp-content/themes/twentyseventeen/piklist/parts/meta-boxes/dependency.php. Error message: syntax error, unexpected 'array' (T_ARRAY), expecting ',' or ')'\r\n",
     "Helo": "localhost"
   }
 }
 
 [APIv1] BROADCAST /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
-[APIv1] KEEPALIVE /api/v1/events
 [APIv1] KEEPALIVE /api/v1/events
 [APIv1] KEEPALIVE /api/v1/events
 [APIv1] KEEPALIVE /api/v1/events
