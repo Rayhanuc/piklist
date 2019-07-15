@@ -1,11 +1,8 @@
 <?php
-
 /*
 Title: Testimonial
 Post Type: post
 */
-
-
 piklist('field', array(
 	'type' => 'group',
 	'field' => 'twentyseventeen_testimonials',
@@ -20,7 +17,6 @@ piklist('field', array(
 				'class' => 'widefat'
 			)
 		),
-
 		array(
 			'type' => 'file',
 			'field' => 'twentyseventeen_timage',
@@ -29,7 +25,6 @@ piklist('field', array(
 				'class' => 'widefat'
 			)
 		),
-
 		array(
 			'type' => 'text',
 			'field' => 'twentyseventeen_description',
