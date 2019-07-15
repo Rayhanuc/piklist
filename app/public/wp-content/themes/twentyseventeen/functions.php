@@ -662,3 +662,42 @@ require get_parent_theme_file_path( '/inc/customizer.php' );
  * SVG icons functions and filters.
  */
 require get_parent_theme_file_path( '/inc/icon-functions.php' );
+
+
+
+/*function twentyseventeen_part_process($part){
+	global $post;
+	if ('post'==$post->post_type) {
+		if ('gallery.php' == $post['part'] && !in_array(get_post_format(),array('gallery'))) {
+			return false;
+		}
+
+
+		if ('gallery.php' == $post['part'] && !in_array(get_post_format(),array('gallery'))) {
+			return false;
+		}
+		if ('audio-video.php' == $post['part'] && !in_array(get_post_format(),array('audio','video'))) {
+			return false;
+		}
+	}
+	return $part;
+}
+add_filter('piklist_part_process','twentyseventeen_part_process');*/
+
+
+
+
+function twentyseventeen__part_process($part){
+	global $post;
+	if ('post' == $post->post_type) {
+		if ('gallery.php'==$part['part'] && !in_array(get_post_format(), array('gallery'))) {
+			return false;
+		}
+		if ('audio-video.php'==$part['part'] && !in_array(get_post_format(), array('audio','video'))) {
+			return false;
+		}
+	}
+	return $part;
+
+}
+add_filter('piklist_part_process','twentyseventeen__part_process');
