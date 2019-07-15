@@ -70,6 +70,22 @@
 		<hr>
 
 		<?php
+		$twentyseventeen_testimonials = get_post_meta(get_the_ID(),'twentyseventeen_testimonials',true);
+		echo "<pre>";
+		print_r($twentyseventeen_testimonials);
+		echo "</pre>";
+
+		foreach ($twentyseventeen_testimonials as $twentyseventeen_testimonial) {
+			echo esc_html($twentyseventeen_testimonial['twentyseventeen_tname'])."<br/>";
+			echo apply_filters('the_content',$twentyseventeen_testimonial['twentyseventeen_description']);
+			echo wp_get_attachment_image($twentyseventeen_testimonial['twentyseventeen_timage'][0])."<br/>";
+		}
+
+		?>
+
+		<hr>
+
+		<?php
 
 		wp_link_pages(
 			array(
