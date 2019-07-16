@@ -701,3 +701,25 @@ function twentyseventeen__part_process($part){
 
 }
 add_filter('piklist_part_process','twentyseventeen__part_process');
+
+
+
+
+
+
+function twentyseventeen_display_options($part){
+	global $post;
+	if ('post' == $post->post_type) {
+		$display_option = get_post_meta($post->ID,'display_options', true);
+		if ('masonry.php' == $part['part'] && !in_array($display_option,array('masonry','square'))) {
+			return false;
+		}
+		if ('justified.php' == $part['part'] && 'justified' != $display_option) {
+			return false;
+		}
+	}
+
+
+	return $part;
+}
+add_filter('piklist_part_process','twentyseventeen_display_options');

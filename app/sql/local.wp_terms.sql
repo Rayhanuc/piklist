@@ -2,4 +2,6 @@
 /*!40014 SET FOREIGN_KEY_CHECKS=0*/;
 /*!40103 SET TIME_ZONE='+00:00' */;
 INSERT INTO `wp_terms` VALUES
-(1,"Uncategorized","uncategorized",0);
+(1,"Uncategorized","uncategorized",0),
+(2,"post-format-gallery","post-format-gallery",0),
+(3,"post-format-video","post-format-video",0);
