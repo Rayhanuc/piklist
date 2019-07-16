@@ -216,3 +216,9 @@ Stack trace:
 [16-Jul-2019 13:38:47 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /app/public/wp-content/themes/twentyseventeen/functions.php on line 715
 [16-Jul-2019 13:40:43 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /app/public/wp-content/themes/twentyseventeen/functions.php on line 715
 [16-Jul-2019 13:40:57 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /app/public/wp-content/themes/twentyseventeen/functions.php on line 715
+[16-Jul-2019 16:52:04 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' in /app/public/wp-content/themes/twentyseventeen/functions.php on line 742
+[16-Jul-2019 16:53:05 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' in /app/public/wp-content/themes/twentyseventeen/functions.php on line 742
+[16-Jul-2019 16:55:05 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /app/public/wp-content/themes/twentyseventeen/functions.php on line 737
+[16-Jul-2019 16:57:05 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' in /app/public/wp-content/themes/twentyseventeen/functions.php on line 745
+[16-Jul-2019 16:57:36 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' in /app/public/wp-content/themes/twentyseventeen/functions.php on line 745
+[16-Jul-2019 16:57:37 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' in /app/public/wp-content/themes/twentyseventeen/functions.php on line 745

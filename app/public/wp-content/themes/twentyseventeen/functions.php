@@ -723,3 +723,42 @@ function twentyseventeen_display_options($part){
 	return $part;
 }
 add_filter('piklist_part_process','twentyseventeen_display_options');
+
+
+
+
+
+
+// For section
+function twentyseventeen_process_section_types($part){
+	global $post;
+	if ('section' == $post->post_type) {
+		$section_type = get_post_meta($post->ID,'twentyseventeen_section_type',true);
+		$sections = array('banner','testimonial','service','newsletter','skill');
+
+		// Together check
+		foreach ($sections as $section) {
+			if ("section-{$section}.php" == $part['part'] && $section != $section_type) {
+				return false;
+			}
+		}
+
+
+		
+		// Single check method
+		/*if ('section-banner.php' == $part['part'] && 'banner' != $section_type) {
+			return false;
+		}
+		if ('section-testimonial.php' == $part['part'] && 'testimonial' != $section_type) {
+			return false;
+		}
+		if ('section-newsletter.php' == $part['part'] && 'newsletter' != $section_type) {
+			return false;
+		}
+		if ('section-service.php' == $part['part'] && 'service' != $section_type) {
+			return false;
+		}*/
+	}
+	return $part;
+}
+add_filter('piklist_part_process','twentyseventeen_process_section_types');
