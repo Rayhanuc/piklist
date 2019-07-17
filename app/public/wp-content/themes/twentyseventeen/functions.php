@@ -759,12 +759,14 @@ function twentyseventeen_process_section_types($part){
 }
 add_filter('piklist_part_process','twentyseventeen_process_section_types');
 
+
+
 // Piklist Settings
 add_filter('piklist_admin_pages', 'piklist_theme_setting_pages');
   function piklist_theme_setting_pages($pages) {
      $pages[] = array(
-      'page_title' => __('MyTheme Options'),
-      'menu_title' => __('Settings', 'piklist'),
+      'page_title' => __('My Theme Options'),
+      'menu_title' => __('MyTheme', 'twentyseventeen'),
       'sub_menu' => 'themes.php', //Under Appearance menu
       'capability' => 'manage_options',
       'menu_slug' => 'mytheme_settings',
@@ -773,8 +775,7 @@ add_filter('piklist_admin_pages', 'piklist_theme_setting_pages');
       'page_icon' => plugins_url('piklist/parts/img/piklist-page-icon-32.png'),
       'single_line' => true,
       'default_tab' => 'Basic',
-      'save_text' => 'Save Demo Settings'
+      'save_text' => 'Save Settings'
     );
-
     return $pages;
   }
