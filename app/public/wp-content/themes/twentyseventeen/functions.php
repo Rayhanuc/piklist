@@ -735,16 +735,12 @@ function twentyseventeen_process_section_types($part){
 	if ('section' == $post->post_type) {
 		$section_type = get_post_meta($post->ID,'twentyseventeen_section_type',true);
 		$sections = array('banner','testimonial','service','newsletter','skill');
-
 		// Together check
 		foreach ($sections as $section) {
 			if ("section-{$section}.php" == $part['part'] && $section != $section_type) {
 				return false;
 			}
-		}
-
-
-		
+		}		
 		// Single check method
 		/*if ('section-banner.php' == $part['part'] && 'banner' != $section_type) {
 			return false;
@@ -762,3 +758,23 @@ function twentyseventeen_process_section_types($part){
 	return $part;
 }
 add_filter('piklist_part_process','twentyseventeen_process_section_types');
+
+// Piklist Settings
+add_filter('piklist_admin_pages', 'piklist_theme_setting_pages');
+  function piklist_theme_setting_pages($pages) {
+     $pages[] = array(
+      'page_title' => __('MyTheme Options'),
+      'menu_title' => __('Settings', 'piklist'),
+      'sub_menu' => 'themes.php', //Under Appearance menu
+      'capability' => 'manage_options',
+      'menu_slug' => 'mytheme_settings',
+      'setting' => 'mytheme_settings',
+      'menu_icon' => plugins_url('piklist/parts/img/piklist-icon.png'),
+      'page_icon' => plugins_url('piklist/parts/img/piklist-page-icon-32.png'),
+      'single_line' => true,
+      'default_tab' => 'Basic',
+      'save_text' => 'Save Demo Settings'
+    );
+
+    return $pages;
+  }
