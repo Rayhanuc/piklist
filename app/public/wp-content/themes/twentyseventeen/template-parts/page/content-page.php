@@ -19,7 +19,16 @@
 	</header><!-- .entry-header -->
 	<div class="entry-content">
 		<?php
-			the_content();
+            the_content();
+            
+            $twentyseventeen_telated_posts = get_post_meta(get_the_ID(),'related_posts');
+            echo "<pre>";
+            print_r($twentyseventeen_telated_posts);
+            echo "</pre>";
+
+            foreach ($twentyseventeen_telated_posts as $twentyseventeen_telated_post) {
+                echo get_the_title($twentyseventeen_telated_post)."<br/>";
+            }
 
 			wp_link_pages(
 				array(
