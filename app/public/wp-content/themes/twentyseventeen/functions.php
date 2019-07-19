@@ -773,7 +773,7 @@ add_filter('piklist_admin_pages', 'piklist_theme_setting_pages');
 function piklist_theme_setting_pages($pages)
 {
     $pages[] = array(
-        'page_title'  => __('My Theme Options'),
+        'page_title'  => __('My Theme Options','twentyseventeen'),
         'menu_title'  => __('MyTheme', 'twentyseventeen'),
         'sub_menu'    => 'themes.php', //Under Appearance menu
         'capability'  => 'manage_options',
