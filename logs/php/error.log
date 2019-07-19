@@ -223,3 +223,5 @@ Stack trace:
 [16-Jul-2019 16:57:36 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' in /app/public/wp-content/themes/twentyseventeen/functions.php on line 745
 [16-Jul-2019 16:57:37 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' in /app/public/wp-content/themes/twentyseventeen/functions.php on line 745
 [17-Jul-2019 15:26:34 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-admin/includes/translation-install.php on line 65
+[19-Jul-2019 10:54:39 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/twentyseventeen/functions.php on line 792
+[19-Jul-2019 10:55:36 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/twentyseventeen/functions.php on line 792

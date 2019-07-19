@@ -787,3 +787,18 @@ function piklist_theme_setting_pages($pages)
     );
     return $pages;
 }
+
+function prefix_pointers($part){
+    if ('mypointer2.php' == $part['part']) {
+       $_screen = get_current_screen(  );
+       /* print_r($_screen);
+       die(); */
+
+       if ($_screen->id !='themes') {
+           return false;
+       }
+    }
+
+    return $part;
+}
+add_filter('piklist_part_process','prefix_pointers');
