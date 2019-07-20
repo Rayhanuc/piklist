@@ -231,3 +231,14 @@ Stack trace:
 [20-Jul-2019 13:32:43 UTC] PHP Warning:  extract() expects parameter 1 to be array, string given in /app/public/wp-content/plugins/piklist/includes/class-piklist-notice.php on line 83
 [20-Jul-2019 13:32:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/plugins/piklist/includes/class-piklist-notice.php on line 93
 [20-Jul-2019 13:32:43 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /app/public/wp-content/plugins/piklist/includes/class-piklist-notice.php on line 101
+[20-Jul-2019 15:34:06 UTC] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY), expecting ',' or ')' in /app/public/wp-content/themes/twentyseventeen/piklist/parts/meta-boxes/tax.php on line 26
+[20-Jul-2019 15:37:07 UTC] PHP Warning:  array_column() expects parameter 1 to be array, object given in /app/public/wp-content/plugins/piklist/includes/class-piklist.php on line 2524
+[20-Jul-2019 15:37:07 UTC] PHP Fatal error:  Uncaught Error: Unsupported operand types in /app/public/wp-content/themes/twentyseventeen/piklist/parts/meta-boxes/tax.php:26
+Stack trace:
+#0 /app/public/wp-content/plugins/piklist/includes/class-piklist.php(523): include()
+#1 /app/public/wp-content/plugins/piklist/includes/class-piklist-meta.php(319): Piklist::render('/app/public/wp-...', Array)
+#2 /app/public/wp-admin/includes/template.php(1304): Piklist_Meta::meta_box(Object(WP_Post), Array)
+#3 /app/public/wp-admin/edit-form-advanced.php(642): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#4 /app/public/wp-admin/post.php(197): include('/app/public/wp-...')
+#5 {main}
+  thrown in /app/public/wp-content/themes/twentyseventeen/piklist/parts/meta-boxes/tax.php on line 26
