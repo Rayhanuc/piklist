@@ -802,3 +802,20 @@ function prefix_pointers($part){
     return $part;
 }
 add_filter('piklist_part_process','prefix_pointers');
+
+
+// class-32.19
+function twentyseventeen_notice($part){
+    $condition = true;
+    if ('test-notice.php' == $part['part']) {
+        if (!$condition) {
+            return false;
+        }
+    }
+    return $part;
+}
+add_filter('piklist_part_process','twentyseventeen_notice');
+
+
+
+

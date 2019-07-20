@@ -226,3 +226,8 @@ Stack trace:
 [19-Jul-2019 10:54:39 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/twentyseventeen/functions.php on line 792
 [19-Jul-2019 10:55:36 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/twentyseventeen/functions.php on line 792
 [20-Jul-2019 04:40:01 UTC] PHP Parse error:  syntax error, unexpected ''twentyseventeen'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in /app/public/wp-content/themes/twentyseventeen/piklist/parts/terms/terms-meta.php on line 30
+[20-Jul-2019 13:32:43 UTC] PHP Warning:  Use of undefined constant fasle - assumed 'fasle' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/twentyseventeen/functions.php on line 812
+[20-Jul-2019 13:32:43 UTC] PHP Warning:  Illegal string offset 'add_on' in /app/public/wp-content/plugins/piklist/includes/class-piklist.php on line 1259
+[20-Jul-2019 13:32:43 UTC] PHP Warning:  extract() expects parameter 1 to be array, string given in /app/public/wp-content/plugins/piklist/includes/class-piklist-notice.php on line 83
+[20-Jul-2019 13:32:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/plugins/piklist/includes/class-piklist-notice.php on line 93
+[20-Jul-2019 13:32:43 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /app/public/wp-content/plugins/piklist/includes/class-piklist-notice.php on line 101
