@@ -1,17 +1,13 @@
 <?php
-
 /*
 Title: Terms Extra Fields
 Taxonomy: category, post_tag
  */
 ?>
-
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla arcu ante, ut lobortis ex porttitor in. Nam at malesuada felis. Aliquam ornare cursus urna, at elementum est scelerisque malesuada.
 </p>
-
 <?php
-
 piklist('field', array(
     'type'       => 'text',
     'field'      => 'extra_data',
