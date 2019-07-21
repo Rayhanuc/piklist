@@ -242,3 +242,12 @@ Stack trace:
 #4 /app/public/wp-admin/post.php(197): include('/app/public/wp-...')
 #5 {main}
   thrown in /app/public/wp-content/themes/twentyseventeen/piklist/parts/meta-boxes/tax.php on line 26
+[21-Jul-2019 08:08:17 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/twentyseventeen/piklist/parts/users/gender.php on line 16
+[21-Jul-2019 10:09:30 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_user_meta(), 0 passed in /app/public/wp-content/themes/twentyseventeen/page-templates/home-page.php on line 20 and at least 1 expected in /app/public/wp-includes/user.php:831
+Stack trace:
+#0 /app/public/wp-content/themes/twentyseventeen/page-templates/home-page.php(20): get_user_meta()
+#1 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-includes/user.php on line 831

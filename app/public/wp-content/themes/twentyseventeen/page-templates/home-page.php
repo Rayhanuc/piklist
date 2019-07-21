@@ -15,3 +15,11 @@ foreach ($twentyseventeen_section_ids as $twentyseventeen_section_id) {
 
     echo $twentyseventeen_section->post_title." : ".$twentyseventeen_section_type."<br/>";
 }
+
+
+$user_meta = get_user_meta(1,'sex',true);
+
+print_r($user_meta);
+
+
+?>

@@ -1,0 +1,406 @@
+[HTTP] Binding to address: :1080
+Creating API v1 with WebPath: 
+Creating API v2 with WebPath: 
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+Got message in APIv2 websocket channel
+[APIv2] BROADCAST /api/v2/websocket
+Got message in APIv1 event stream
+Sending content: {
+  "ID": "H4tM_NC-xDATLmq_NSMwoX3r7cPw2y8y0a3QMzFqVbA=@mailhog.example",
+  "From": {
+    "Relays": null,
+    "Mailbox": "www-data",
+    "Domain": "cb68066243ed",
+    "Params": ""
+  },
+  "To": [
+    {
+      "Relays": null,
+      "Mailbox": "mailhog",
+      "Domain": "flywheel.local",
+      "Params": ""
+    }
+  ],
+  "Content": {
+    "Headers": {
+      "Content-Type": [
+        "text/plain; charset=UTF-8"
+      ],
+      "Date": [
+        "Sun, 21 Jul 2019 10:02:47 +0000"
+      ],
+      "From": [
+        "WordPress \u003cwordpress@piklist.local\u003e"
+      ],
+      "MIME-Version": [
+        "1.0"
+      ],
+      "Message-ID": [
+        "\u003c634fd40cf38a45fe5296b4adc4379e45@piklist.local\u003e"
+      ],
+      "Received": [
+        "from localhost by mailhog.example (MailHog)\r\n          id H4tM_NC-xDATLmq_NSMwoX3r7cPw2y8y0a3QMzFqVbA=@mailhog.example; Sun, 21 Jul 2019 10:02:47 +0000"
+      ],
+      "Return-Path": [
+        "\u003cwww-data@cb68066243ed\u003e"
+      ],
+      "Subject": [
+        "[piklist] New User Registration"
+      ],
+      "To": [
+        "dev-email@flywheel.local"
+      ],
+      "X-Mailer": [
+        "PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)"
+      ],
+      "X-PHP-Originating-Script": [
+        "1000:class-phpmailer.php"
+      ]
+    },
+    "Body": "New user registration on your site piklist:\r\n\r\nUsername: jamal\r\n\r\nEmail: jamal@uddin.com\r\n",
+    "Size": 489,
+    "MIME": null
+  },
+  "Created": "2019-07-21T10:02:47.983499838Z",
+  "MIME": null,
+  "Raw": {
+    "From": "www-data@cb68066243ed",
+    "To": [
+      "mailhog@flywheel.local"
+    ],
+    "Data": "To: dev-email@flywheel.local\r\nSubject: [piklist] New User Registration\r\nX-PHP-Originating-Script: 1000:class-phpmailer.php\r\nDate: Sun, 21 Jul 2019 10:02:47 +0000\r\nFrom: WordPress \u003cwordpress@piklist.local\u003e\r\nMessage-ID: \u003c634fd40cf38a45fe5296b4adc4379e45@piklist.local\u003e\r\nX-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)\r\nMIME-Version: 1.0\r\nContent-Type: text/plain; charset=UTF-8\r\n\r\nNew user registration on your site piklist:\r\n\r\nUsername: jamal\r\n\r\nEmail: jamal@uddin.com\r\n",
+    "Helo": "localhost"
+  }
+}
+
+[APIv1] BROADCAST /api/v1/events
+Got message in APIv2 websocket channel
+[APIv2] BROADCAST /api/v2/websocket
+Got message in APIv1 event stream
+Sending content: {
+  "ID": "XieRpfdpwIN3PnxozUCaPQqyVbt9fPBtPxMwxyDrbe8=@mailhog.example",
+  "From": {
+    "Relays": null,
+    "Mailbox": "www-data",
+    "Domain": "cb68066243ed",
+    "Params": ""
+  },
+  "To": [
+    {
+      "Relays": null,
+      "Mailbox": "mailhog",
+      "Domain": "flywheel.local",
+      "Params": ""
+    }
+  ],
+  "Content": {
+    "Headers": {
+      "Content-Type": [
+        "text/plain; charset=UTF-8"
+      ],
+      "Date": [
+        "Sun, 21 Jul 2019 10:02:47 +0000"
+      ],
+      "From": [
+        "WordPress \u003cwordpress@piklist.local\u003e"
+      ],
+      "MIME-Version": [
+        "1.0"
+      ],
+      "Message-ID": [
+        "\u003cd5b1d1f5f1828579187a2be3b4e6df8b@piklist.local\u003e"
+      ],
+      "Received": [
+        "from localhost by mailhog.example (MailHog)\r\n          id XieRpfdpwIN3PnxozUCaPQqyVbt9fPBtPxMwxyDrbe8=@mailhog.example; Sun, 21 Jul 2019 10:02:48 +0000"
+      ],
+      "Return-Path": [
+        "\u003cwww-data@cb68066243ed\u003e"
+      ],
+      "Subject": [
+        "[piklist] Login Details"
+      ],
+      "To": [
+        "jamal@uddin.com"
+      ],
+      "X-Mailer": [
+        "PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)"
+      ],
+      "X-PHP-Originating-Script": [
+        "1000:class-phpmailer.php"
+      ]
+    },
+    "Body": "Username: jamal\r\n\r\nTo set your password, visit the following address:\r\n\r\n\u003chttp://piklist.local/wp-login.php?action=rp\u0026key=hwXeXytZ7DjDFAUuPPIa\u0026login=jamal\u003e\r\n\r\nhttp://piklist.local/wp-login.php\r\n",
+    "Size": 576,
+    "MIME": null
+  },
+  "Created": "2019-07-21T10:02:48.037283685Z",
+  "MIME": null,
+  "Raw": {
+    "From": "www-data@cb68066243ed",
+    "To": [
+      "mailhog@flywheel.local"
+    ],
+    "Data": "To: jamal@uddin.com\r\nSubject: [piklist] Login Details\r\nX-PHP-Originating-Script: 1000:class-phpmailer.php\r\nDate: Sun, 21 Jul 2019 10:02:47 +0000\r\nFrom: WordPress \u003cwordpress@piklist.local\u003e\r\nMessage-ID: \u003cd5b1d1f5f1828579187a2be3b4e6df8b@piklist.local\u003e\r\nX-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)\r\nMIME-Version: 1.0\r\nContent-Type: text/plain; charset=UTF-8\r\n\r\nUsername: jamal\r\n\r\nTo set your password, visit the following address:\r\n\r\n\u003chttp://piklist.local/wp-login.php?action=rp\u0026key=hwXeXytZ7DjDFAUuPPIa\u0026login=jamal\u003e\r\n\r\nhttp://piklist.local/wp-login.php\r\n",
+    "Helo": "localhost"
+  }
+}
+
+[APIv1] BROADCAST /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+Got message in APIv2 websocket channel
+[APIv2] BROADCAST /api/v2/websocket
+Got message in APIv1 event stream
+Sending content: {
+  "ID": "F27Y-J_ocevlwdw0lYYbaDk5SpQ8dxjm5dYNWpBtX60=@mailhog.example",
+  "From": {
+    "Relays": null,
+    "Mailbox": "www-data",
+    "Domain": "cb68066243ed",
+    "Params": ""
+  },
+  "To": [
+    {
+      "Relays": null,
+      "Mailbox": "mailhog",
+      "Domain": "flywheel.local",
+      "Params": ""
+    }
+  ],
+  "Content": {
+    "Headers": {
+      "Content-Type": [
+        "text/plain; charset=UTF-8"
+      ],
+      "Date": [
+        "Sun, 21 Jul 2019 10:03:39 +0000"
+      ],
+      "From": [
+        "WordPress \u003cwordpress@piklist.local\u003e"
+      ],
+      "MIME-Version": [
+        "1.0"
+      ],
+      "Message-ID": [
+        "\u003c2a8286156de2b2352edfd3010a1a325c@piklist.local\u003e"
+      ],
+      "Received": [
+        "from localhost by mailhog.example (MailHog)\r\n          id F27Y-J_ocevlwdw0lYYbaDk5SpQ8dxjm5dYNWpBtX60=@mailhog.example; Sun, 21 Jul 2019 10:03:39 +0000"
+      ],
+      "Return-Path": [
+        "\u003cwww-data@cb68066243ed\u003e"
+      ],
+      "Subject": [
+        "[piklist] New User Registration"
+      ],
+      "To": [
+        "dev-email@flywheel.local"
+      ],
+      "X-Mailer": [
+        "PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)"
+      ],
+      "X-PHP-Originating-Script": [
+        "1000:class-phpmailer.php"
+      ]
+    },
+    "Body": "New user registration on your site piklist:\r\n\r\nUsername: korim\r\n\r\nEmail: korim@uddin.com\r\n",
+    "Size": 489,
+    "MIME": null
+  },
+  "Created": "2019-07-21T10:03:39.747590902Z",
+  "MIME": null,
+  "Raw": {
+    "From": "www-data@cb68066243ed",
+    "To": [
+      "mailhog@flywheel.local"
+    ],
+    "Data": "To: dev-email@flywheel.local\r\nSubject: [piklist] New User Registration\r\nX-PHP-Originating-Script: 1000:class-phpmailer.php\r\nDate: Sun, 21 Jul 2019 10:03:39 +0000\r\nFrom: WordPress \u003cwordpress@piklist.local\u003e\r\nMessage-ID: \u003c2a8286156de2b2352edfd3010a1a325c@piklist.local\u003e\r\nX-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)\r\nMIME-Version: 1.0\r\nContent-Type: text/plain; charset=UTF-8\r\n\r\nNew user registration on your site piklist:\r\n\r\nUsername: korim\r\n\r\nEmail: korim@uddin.com\r\n",
+    "Helo": "localhost"
+  }
+}
+
+[APIv1] BROADCAST /api/v1/events
+Got message in APIv2 websocket channel
+[APIv2] BROADCAST /api/v2/websocket
+Got message in APIv1 event stream
+Sending content: {
+  "ID": "U7wOh4t6nopAWhoEH2KAnTlgj0bNp3f1yAO6Py3leE8=@mailhog.example",
+  "From": {
+    "Relays": null,
+    "Mailbox": "www-data",
+    "Domain": "cb68066243ed",
+    "Params": ""
+  },
+  "To": [
+    {
+      "Relays": null,
+      "Mailbox": "mailhog",
+      "Domain": "flywheel.local",
+      "Params": ""
+    }
+  ],
+  "Content": {
+    "Headers": {
+      "Content-Type": [
+        "text/plain; charset=UTF-8"
+      ],
+      "Date": [
+        "Sun, 21 Jul 2019 10:03:39 +0000"
+      ],
+      "From": [
+        "WordPress \u003cwordpress@piklist.local\u003e"
+      ],
+      "MIME-Version": [
+        "1.0"
+      ],
+      "Message-ID": [
+        "\u003cd5b75e5bcca29e562fe710a831a1a1f8@piklist.local\u003e"
+      ],
+      "Received": [
+        "from localhost by mailhog.example (MailHog)\r\n          id U7wOh4t6nopAWhoEH2KAnTlgj0bNp3f1yAO6Py3leE8=@mailhog.example; Sun, 21 Jul 2019 10:03:39 +0000"
+      ],
+      "Return-Path": [
+        "\u003cwww-data@cb68066243ed\u003e"
+      ],
+      "Subject": [
+        "[piklist] Login Details"
+      ],
+      "To": [
+        "korim@uddin.com"
+      ],
+      "X-Mailer": [
+        "PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)"
+      ],
+      "X-PHP-Originating-Script": [
+        "1000:class-phpmailer.php"
+      ]
+    },
+    "Body": "Username: korim\r\n\r\nTo set your password, visit the following address:\r\n\r\n\u003chttp://piklist.local/wp-login.php?action=rp\u0026key=sKpcUfa0scPmgvirA80j\u0026login=korim\u003e\r\n\r\nhttp://piklist.local/wp-login.php\r\n",
+    "Size": 576,
+    "MIME": null
+  },
+  "Created": "2019-07-21T10:03:39.784944571Z",
+  "MIME": null,
+  "Raw": {
+    "From": "www-data@cb68066243ed",
+    "To": [
+      "mailhog@flywheel.local"
+    ],
+    "Data": "To: korim@uddin.com\r\nSubject: [piklist] Login Details\r\nX-PHP-Originating-Script: 1000:class-phpmailer.php\r\nDate: Sun, 21 Jul 2019 10:03:39 +0000\r\nFrom: WordPress \u003cwordpress@piklist.local\u003e\r\nMessage-ID: \u003cd5b75e5bcca29e562fe710a831a1a1f8@piklist.local\u003e\r\nX-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)\r\nMIME-Version: 1.0\r\nContent-Type: text/plain; charset=UTF-8\r\n\r\nUsername: korim\r\n\r\nTo set your password, visit the following address:\r\n\r\n\u003chttp://piklist.local/wp-login.php?action=rp\u0026key=sKpcUfa0scPmgvirA80j\u0026login=korim\u003e\r\n\r\nhttp://piklist.local/wp-login.php\r\n",
+    "Helo": "localhost"
+  }
+}
+
+[APIv1] BROADCAST /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
