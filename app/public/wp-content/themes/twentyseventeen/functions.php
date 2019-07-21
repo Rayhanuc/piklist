@@ -731,49 +731,44 @@ function twentyseventeen_display_options($part)
 }
 add_filter('piklist_part_process', 'twentyseventeen_display_options');
 
-
-
 // For section only one method you can use Together/single check
 /* function twentyseventeen_process_section_types($part)
 {
-    global $post;
-    if ('section' == $post->post_type) {
-        $section_type = get_post_meta($post->ID, 'twentyseventeen_section_type', true);
-        $sections     = array('banner', 'testimonial', 'service', 'newsletter', 'skill');
-        // Together check 
-        foreach ($sections as $section) {
-            if ("section-{$section}.php" == $part['part'] && $section != $section_type) {
-                return false;
-            }
-        }
+global $post;
+if ('section' == $post->post_type) {
+$section_type = get_post_meta($post->ID, 'twentyseventeen_section_type', true);
+$sections     = array('banner', 'testimonial', 'service', 'newsletter', 'skill');
+// Together check
+foreach ($sections as $section) {
+if ("section-{$section}.php" == $part['part'] && $section != $section_type) {
+return false;
+}
+}
 
-
-        // Single check method
-        if ('section-banner.php' == $part['part'] && 'banner' != $section_type) {
-        return false;
-        }
-        if ('section-testimonial.php' == $part['part'] && 'testimonial' != $section_type) {
-        return false;
-        }
-        if ('section-newsletter.php' == $part['part'] && 'newsletter' != $section_type) {
-        return false;
-        }
-        if ('section-service.php' == $part['part'] && 'service' != $section_type) {
-        return false;
-        }
-    }
-    return $part;
+// Single check method
+if ('section-banner.php' == $part['part'] && 'banner' != $section_type) {
+return false;
+}
+if ('section-testimonial.php' == $part['part'] && 'testimonial' != $section_type) {
+return false;
+}
+if ('section-newsletter.php' == $part['part'] && 'newsletter' != $section_type) {
+return false;
+}
+if ('section-service.php' == $part['part'] && 'service' != $section_type) {
+return false;
+}
+}
+return $part;
 }
 add_filter('piklist_part_process', 'twentyseventeen_process_section_types'); */
-
-
 
 // Piklist Settings
 add_filter('piklist_admin_pages', 'piklist_theme_setting_pages');
 function piklist_theme_setting_pages($pages)
 {
     $pages[] = array(
-        'page_title'  => __('My Theme Options','twentyseventeen'),
+        'page_title'  => __('My Theme Options', 'twentyseventeen'),
         'menu_title'  => __('MyTheme', 'twentyseventeen'),
         'sub_menu'    => 'themes.php', //Under Appearance menu
         'capability'  => 'manage_options',
@@ -788,24 +783,25 @@ function piklist_theme_setting_pages($pages)
     return $pages;
 }
 
-function prefix_pointers($part){
+function prefix_pointers($part)
+{
     if ('mypointer2.php' == $part['part']) {
-       $_screen = get_current_screen(  );
-       /* print_r($_screen);
-       die(); */
+        $_screen = get_current_screen();
+        /* print_r($_screen);
+        die(); */
 
-       if ($_screen->id !='themes') {
-           return false;
-       }
+        if ($_screen->id != 'themes') {
+            return false;
+        }
     }
 
     return $part;
 }
-add_filter('piklist_part_process','prefix_pointers');
-
+add_filter('piklist_part_process', 'prefix_pointers');
 
 // class-32.19
-function twentyseventeen_notice($part){
+function twentyseventeen_notice($part)
+{
     $condition = true;
     if ('test-notice.php' == $part['part']) {
         if (!$condition) {
@@ -814,8 +810,19 @@ function twentyseventeen_notice($part){
     }
     return $part;
 }
-add_filter('piklist_part_process','twentyseventeen_notice');
+add_filter('piklist_part_process', 'twentyseventeen_notice');
 
-
-
-
+function twentyseventeen_subtitle_field()
+{
+    piklist('field', array(
+        'type'       => 'text',
+        'field'      => 'twentyseventeen_subtitle',
+        'template'   => 'field',
+        'attributes' => array(
+            'class'       => 'large-text',
+            'placeholder' => __('Enter Subtitle', 'twentyseventeen'),
+            'style'=>'height:35px;border: 2px dotted green;margin-top:15px;'
+        ),
+    ));
+}
+add_action('edit_form_after_title', 'twentyseventeen_subtitle_field');
