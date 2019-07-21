@@ -13,7 +13,7 @@ Title: Select Categories
 <?php
 
 piklist('field', array(
-    'type'        => 'select', // select / radio / checkbox
+    'type'        => 'radio', // select / radio / checkbox
     'field'       => 'twentyseventeen_cats',
     'label'       => __('Select Categories', 'twentyseventeen'),
     'description' => __('Here is some information', 'twentyseventeen'),

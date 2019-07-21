@@ -821,8 +821,18 @@ function twentyseventeen_subtitle_field()
         'attributes' => array(
             'class'       => 'large-text',
             'placeholder' => __('Enter Subtitle', 'twentyseventeen'),
-            'style'=>'height:35px;border: 2px dotted green;margin-top:15px;'
+            'style'       => 'height:35px;border: 2px dotted green;margin-top:15px;',
         ),
     ));
 }
 add_action('edit_form_after_title', 'twentyseventeen_subtitle_field');
+
+function my_enqueue_files($hook)
+{
+    if ('post.php' == $hook) {
+        wp_enqueue_style('select2_styles', 'https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css', false);
+        wp_enqueue_script('select2_js', 'https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js', array('jquery'), null, true);
+        wp_enqueue_script('meta_utility', get_theme_file_uri( "assets/js/metautility.js" ), array('jquery'), null, true);
+    }
+}
+add_action('admin_enqueue_scripts', 'my_enqueue_files');
